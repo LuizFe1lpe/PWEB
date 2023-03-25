@@ -1,0 +1,22 @@
+@import "Componentes/body.css";
+@import "Componentes/nav.css";
+
+@import "Classes/Container.css";
+@import "Classes/HeaderUp.css";
+@import "Classes/HeaderDown.css";
+@import "Classes/FooterUp.css";
+@import "Classes/FooterDown.css";
+
+:root{
+    --cor-primaria: rgb();
+    --cor-secundaria: rgb();
+    --cor_terciaria: rgb();
+    --preto: rgb();
+    --branco: rgb();
+
+    --font-principal: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+}

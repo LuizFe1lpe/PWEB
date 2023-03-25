@@ -1,0 +1,10 @@
+.headerup{
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    margin: 0 auto;
+}
+.headerup a{
+    margin: 10px 5px 10px 5px;
+}

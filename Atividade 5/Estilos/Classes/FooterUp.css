@@ -1,0 +1,12 @@
+.footerup{
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    margin: 0 auto;
+}
+.footerup a{
+    margin: 10px 0px 10px 0px;
+    flex-basis: calc(100%/5 - 20px); /*calcular o posicionamento sem alterar o comprimento dos links*/
+    text-align: center;
+}
