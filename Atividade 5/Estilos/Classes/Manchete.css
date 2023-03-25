@@ -1,0 +1,12 @@
+.manchete{
+    height: auto;
+    width: 910px;
+
+    display: flex;
+    flex-direction: row;
+}
+.manchete img{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}

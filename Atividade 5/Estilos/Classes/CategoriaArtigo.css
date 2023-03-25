@@ -1,0 +1,6 @@
+.categoriaArtigo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.categoriaArtigo:hover{
+    color: var(--cor_terciaria);
+}

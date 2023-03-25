@@ -4,7 +4,10 @@
 
     display: flex;
     margin: 0 auto;
+
+    background-color: var(--cor-primaria);
 }
 .headerup a{
-    margin: 10px 5px 10px 5px;
+    margin: 10px 10px 10px 10px;
+    color: var(--branco);
 }

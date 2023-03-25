@@ -1,0 +1,28 @@
+article{
+    height: auto;
+    width: 390px;
+
+    margin: 10px 5px 10px 5px;
+    
+    border-radius: 3px;
+    border: 1px solid var(--preto);
+}
+article img, h2, p{
+    cursor: pointer;
+    
+    margin: 10px 10px 10px 10px;
+
+    text-align: justify;
+    text-justify: inter-word;
+}
+article h2{
+    font-size: 20px;
+}
+article img{
+    margin: 10px;
+
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}

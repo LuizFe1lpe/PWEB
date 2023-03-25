@@ -1,6 +1,13 @@
 body{
+    display: flex;
+    flex-direction: column;
+
     font-family: var(--font-principal);
+
     margin: 0;
-    padding: 0;
+
     max-width: vhw;
+    min-height: 100vh;
+
+    background-color: var(--branco);
 }

@@ -4,4 +4,11 @@
 
     display: flex;
     margin: 0 auto;
+
+    background-color: var(--cor-primaria);
+}
+.headerdown h1{
+    color: var(--cor-secundaria);
+    margin-left: 2%;
+    text-shadow: 3  px 3px var(--preto);
 }

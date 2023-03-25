@@ -1,18 +1,22 @@
+@import "Componentes/article.css";
 @import "Componentes/body.css";
 @import "Componentes/nav.css";
+@import "Componentes/footer.css";
 
 @import "Classes/Container.css";
 @import "Classes/HeaderUp.css";
 @import "Classes/HeaderDown.css";
 @import "Classes/FooterUp.css";
-@import "Classes/FooterDown.css";
+@import "Classes/Manchete.css";
+@import "Classes/CategoriaArtigo.css";
+@import "Classes/MancheteColunaTexto.css";
 
 :root{
-    --cor-primaria: rgb();
-    --cor-secundaria: rgb();
-    --cor_terciaria: rgb();
-    --preto: rgb();
-    --branco: rgb();
+    --cor-primaria: #1D12B5;
+    --cor-secundaria: #FFE452;
+    --cor_terciaria: #5C51FF;
+    --preto: #151424;
+    --branco: #FFFBF7;
 
     --font-principal: 'Times New Roman', Times, serif;
 }

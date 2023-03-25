@@ -4,9 +4,13 @@
 
     display: flex;
     margin: 0 auto;
+    justify-content: space-around;
+    
+    background-color: var(--preto);
 }
 .footerup a{
-    margin: 10px 0px 10px 0px;
-    flex-basis: calc(100%/5 - 20px); /*calcular o posicionamento sem alterar o comprimento dos links*/
+    margin: 15px 0px 15px 0px;
     text-align: center;
+
+    color: var(--branco);
 }

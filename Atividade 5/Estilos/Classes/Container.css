@@ -1,6 +1,9 @@
 .container{
     display: flex;
-    align-items: center;
-    width: 80%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    
+    width: 70%;
     margin: 0 auto;
 }
