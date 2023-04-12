@@ -14,17 +14,18 @@ function Tesoura(){
     Compara(valor,Oponente());
 }
 function Oponente(){
-    let escolha = Math.floor(Math.random() * 2);
+    let escolha = Math.floor(Math.random() * 3 + 1);
     console.log(escolha);
     let maoOponente;
 
-    if(escolha == 0){
+    if(escolha == 1){
         maoOponente = "pedra";
     }
-    else if(escolha == 1){
+    else if(escolha == 2){
         maoOponente = "papel";
     }
     else{
+        //3
         maoOponente = "tesoura";
     }
     return maoOponente;
@@ -54,5 +55,5 @@ function Compara(a,b){
             alert(resultado + "Tesoura corta papel");
         }
     }
-    location.reload();
+    //location.reload();// recarrega página
 }
