@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+    background-color: white;
+
+    text-decoration: none;
+
+    height: 35px;
+    width: 110px;
+    
+    text-align: center;
+    margin-right: 4px;
+
+    border: 2px blue solid;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
