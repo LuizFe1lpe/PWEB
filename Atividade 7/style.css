@@ -11,17 +11,34 @@ button{
     color: blue;
     background-color: white;
 
-    text-decoration: none;
-
-    height: 35px;
-    width: 110px;
+    height: 200px;
+    width: 200px;
     
     text-align: center;
     margin-right: 4px;
 
     border: 2px blue solid;
+    border-radius: 8px;
 }
 button:hover{
     background-color: blue;
     color: white;
+}
+.pedra{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2206/2206698.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+.papel{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2401/2401726.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+.tesoura{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4229/4229057.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
 }
