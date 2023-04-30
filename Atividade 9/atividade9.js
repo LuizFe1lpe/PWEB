@@ -12,4 +12,5 @@ function RetornaMaior(a){
 }
 function OrganizaValores(a, b){
     return alert(nums.sort((a, b) => a - b));
+    //callbacks a = primeiro valor e b = segundo valor
 }    
