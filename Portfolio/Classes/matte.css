@@ -1,0 +1,15 @@
+.matte{
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    align-self: center;
+    margin: 1% 0 1% 0;
+}
+.matte img{
+    width: 50%;
+    height: auto;
+    object-fit: fill;
+}

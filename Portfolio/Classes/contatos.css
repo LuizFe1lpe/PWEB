@@ -1,0 +1,17 @@
+.contatos{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+.contatos a{
+    margin: 5px 0 10px 0;
+    color: var(--branco);
+
+    font-size: large;
+    text-decoration: none;
+}
+.contatos a:hover{
+    cursor: pointer;
+    color: var(--cinza);
+}

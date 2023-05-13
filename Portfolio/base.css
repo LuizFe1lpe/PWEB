@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+@import url(Classes/arte-principal.css);
+@import url(Classes/contatos.css);
+@import url(Classes/container.css);
+@import url(Classes/matte.css);
+@import url(Classes/primeiroitem.css);
+@import url(Classes/sobre.css);
+
+@import url(Componentes/body.css);
+@import url(Componentes/footer.css);
+@import url(Componentes/header.css);
+@import url(Componentes/main.css);
+
+:root{
+    --font-texto-principal: Caveat;
+    --font-principal: Urbanist;
+
+    --branco: #F3F4FE;
+    --preto: #151319;
+    --cinza: #dcdde6;
+}
