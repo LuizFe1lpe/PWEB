@@ -1,0 +1,42 @@
+body{
+    height: auto;
+    width: 40%;
+    margin: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+    border: solid 2px black;
+    padding: 5px;
+    margin-top: 15%;
+}
+.container fieldset{
+    display: flex;
+    flex-direction: column; 
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+    height: 25px;
+    width: 200px;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+input{
+    margin-bottom: 5px;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comentario{
+    height: 100px;
+    width: auto;
+}

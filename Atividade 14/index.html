@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="atividade14.js"></script>
+    <title>Atividade 14</title>
+</head>
+<body>
+    <form id="form1" name="form1" class="container">
+        <h1>Formulário Principal</h1>
+        <input type="text" id="Nome" placeholder="Nome" minlength="10">
+        <input type="email" id="Email" placeholder="E-mail">
+        <input type="text" id="Comentario" placeholder="Comentário" class="comentario" minlength="20">
+        <div class="pesquisa">
+            <h2>Pesquisa:</h2>
+            <p>Primeira vez nesta página?</p>
+            <div>
+                <input type="radio" name="pesquisa" id="sim">
+                <label for="sim">Sim</label>
+                <input type="radio" name="pesquisa" id="nao"  checked="true">
+                <label for="nao">Não</label>
+            </div>
+            </div>
+            <div class="botoes">
+            <button class="btn" type="submit" onclick="Enviar()">Enviar</button>
+            <button class="btn" type="reset" onclick="Limpar()">Limpar</button>
+         </div>
+    </form>
+</body>
+</html>
